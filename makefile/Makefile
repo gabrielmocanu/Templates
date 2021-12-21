@@ -4,8 +4,6 @@ LDFLAGS =
 
 TARGET_EXEC = program_out
 
-SRC_DIRS ?= .
-
 MKDIR_P ?= mkdir -p
 
 SRCS := $(shell find $(SRC_DIRS) -name *.c)
