@@ -6,7 +6,7 @@ TARGET_EXEC = program_out
 
 MKDIR_P ?= mkdir -p
 
-SRCS := $(shell find $(SRC_DIRS) -name *.c)
+SRCS := $(shell find $(SRC_DIRS) -name "*.c")
 OBJS := $(SRCS:.c=.o)
 
 $(info OBJS is $(OBJS))
