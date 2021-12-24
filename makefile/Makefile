@@ -4,8 +4,6 @@ LDFLAGS =
 
 TARGET_EXEC = program_out
 
-MKDIR_P ?= mkdir -p
-
 SRCS := $(shell find $(SRC_DIRS) -name "*.c")
 OBJS := $(SRCS:.c=.o)
 
